@@ -1,0 +1,6 @@
+{
+  "appId": "virtual.shop.app",
+  "appName": "virtual-shop-app",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

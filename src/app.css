@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+.navbar-bg{
+    background-color: transparent;
+}
+.navbar-items{
+    display: flex;
+    padding-left: 10px;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+}
+.information-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-items .information-navbar small{
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+.navbar-items .information-navbar h2{
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #000;
+}
+.buttons-navbar{
+    display: flex;
+    --k-touch-ripple-color: rgba(0, 0, 0, 0.1)
+}
+
+
+.button-navbar{
+    --k-touch-ripple-opacity: .15;
+    --k-touch-ripple-black: rgba(0, 0, 0, var(--k-touch-ripple-opacity));
+    --k-touch-ripple-white: rgba(255, 255, 255, var(--k-touch-ripple-opacity));
+    --k-touch-ripple-color: rgba(0, 155, 55, 0.4);
+}
+
+.bg-md-light-surface-2{
+    background-color: #fff!important;
+}
+
+.tabbar-link span{
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.header-page{
+    text-align: center;
+    width: 100%;
+}
+
+.title-header-navbar{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin-left: -60px;
+}
+
+
+.tabbar-link{
+    --k-touch-ripple-opacity: .15;
+    --k-touch-ripple-black: rgba(0, 0, 0, var(--k-touch-ripple-opacity));
+    --k-touch-ripple-white: rgba(255, 255, 255, var(--k-touch-ripple-opacity));
+    --k-touch-ripple-color: rgba(0, 155, 55, 0.4);
+}
+
+.active-nav{
+    color: #009b37;
+}
+
+.active-nav span{
+    color: #009b37;
+}
